@@ -1,23 +1,43 @@
-public class Task1_1{
-    public static void main(String[] args){
+/**
+ * Task1_1: 課題内容
+ *
+ * 本課題では、データ型・文字列の使い方を学んでいきましょう。
+ * 問①から問⑧まであります。
+ * 指定された型・値・変数名を守って記述してください。
+ * 問③,⑦については、コメントを入れてください。
+ *
+ */
+public class Task1_1 {
 
-        /* int hogeInt=50; */
+    public static void main(String[] args) {
 
-        /* String hogeString="テスト"; */
+        // ①int型の hogeInt という名前の変数を宣言し、値「50」で初期化
+        // int hogeInt=50;
 
-        /* doubleクラスのhogeDouble"という名前を宣言し、"0.2"という数値で初期化させている。*/
-        /* また、intでは小数点以下の数字を扱うことができないためdoubleを使用している。*/
+        // ②Stringクラスの hogeString という名前の変数を宣言、値「テスト」で初期化
+        // String hogeString="テスト"; 
+
+        // ③下記の処理について、何をしているのかコメントを記入してください
+        /* doubleクラスのhogeDouble"という名前を宣言し、"0.2"という数値で初期化させている。
+         * また、intでは小数点以下の数字を扱うことができないためdoubleを使用している。*/
         double hogeDouble = 0.2;
 
+        // ④変数 hogeInt を値「100」で上書き
         int hogeInt=100;
 
+        // ⑤変数 hogeString を値「合格」で上書き
         String hogeString="合格";
 
+        // ⑥変数 hogeInt の値を表示
         System.out.println(hogeInt);
 
-        /* 上記で初期化した変数hogeStringの値"合格"を表示させようとしている。 */
+        // ⑦下記の処理について、何をしているのかコメントを記入してください
+        //上記で初期化した変数hogeStringの値"合格"を表示させようとしている。 
         System.out.println(hogeString);
 
+        // ⑧変数 hogeDouble の値を表示
         System.out.print(hogeDouble);
+
+
     }
 }
