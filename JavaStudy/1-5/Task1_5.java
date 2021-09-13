@@ -19,7 +19,7 @@ public class Task1_5 {
     // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
     /*
      *  whileが指定した条件"iが数値100以内である"に当てはまれば横一列に1ずつ足された数値が出力され続ける。
-     *  iが数値1なのでiが数値101以上になるまでの1~100が出力される。
+     *  iが数値1なのでiが数値101を超えない1~100が出力される。
      */
     int i = 1;
     while (i <= 100) {
@@ -40,13 +40,11 @@ public class Task1_5 {
      *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
      */
     for (int b = 1; b <= 9; b++) {
+      System.out.print(b + " ||");
       for (int c = 1; c <= 9; c++) {
-        if ((b / (b * c)) == 1) {
-          System.out.print(b + " ||");
-        }
         System.out.print(" " + (b * c) + " |");
-      }
-      System.out.println();
     }
+    System.out.println();
   }
+}
 }
