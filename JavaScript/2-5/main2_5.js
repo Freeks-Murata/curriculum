@@ -12,4 +12,4 @@ function changeLang() {
                 japan.style.display="block";
                 usa.style.display="block";
         }
-}
+} 
