@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+    .wrapper {
+        width: 250px;
+    }
+    .header {
+        width: 250px;
+    }
+    .left {
+        width: 150px;
+    }
+    .right {
+        width: 100px;
+    }
+    .footer {
+        width: 250px;
+    }
+}
